@@ -1,0 +1,2 @@
+# PDS_Sim_Binaryzation
+紫光同创PDS软件联合Matlab和Modelsim进行图像仿真（以二值化为例）

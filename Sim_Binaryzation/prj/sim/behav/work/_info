@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/prj/sim/behav
+vbinaryzation
+Z1 !s110 1696749747
+!i10b 1
+!s100 J@hCHloI2FB>UAz=6n9Q`1
+IPFeFA_ej2TWUXT1MS_]o31
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1680097734
+8D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v
+FD:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v
+L0 22
+Z3 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1696749747.000000
+!s107 D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v|D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v|
+Z5 !s90 -reportprogress|300|-work|work|D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v|D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v|D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfile_sim_T0
+R1
+!i10b 1
+!s100 hJ^=Q?C;N^zP=`1`fZF[c3
+IFSRkP_dGh[4cXD=k`QdQo0
+R2
+R0
+w1696749734
+8D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v
+FD:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v|D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v|
+R5
+!i113 1
+R6
+R7
+nfile_sim_@t0

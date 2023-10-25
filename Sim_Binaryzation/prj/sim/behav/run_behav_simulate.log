@@ -1,0 +1,161 @@
+# Reading C:/modelsim_dlx64_10.6c/tcl/vsim/pref.tcl
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap usim C:/pango/PDS_2022.2-SP3/pds_sim_library/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap adc C:/pango/PDS_2022.2-SP3/pds_sim_library/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap ddrc C:/pango/PDS_2022.2-SP3/pds_sim_library/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap ddrphy C:/pango/PDS_2022.2-SP3/pds_sim_library/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap hsst_e2 C:/pango/PDS_2022.2-SP3/pds_sim_library/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap iolhr_dft C:/pango/PDS_2022.2-SP3/pds_sim_library/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap ipal_e1 C:/pango/PDS_2022.2-SP3/pds_sim_library/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap pciegen2 C:/pango/PDS_2022.2-SP3/pds_sim_library/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 15:22:27 on Oct 08,2023
+# vlog -reportprogress 300 -work work D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v 
+# -- Compiling module binaryzation
+# -- Compiling module file_sim_T0
+# ** Warning: D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v(22): (vlog-2275) 'binaryzation' already exists and will be overwritten.
+# -- Compiling module binaryzation
+# 
+# Top level modules:
+# 	file_sim_T0
+# End time: 15:22:27 on Oct 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 file_sim_T0 usim.GTP_GRS 
+# Start time: 15:22:27 on Oct 08,2023
+# //  ModelSim DE-64 10.6c Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.file_sim_T0
+# Loading work.binaryzation
+# Loading usim.GTP_GRS
+# ** Warning: (vsim-PLI-3691) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /file_sim_T0 File: D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v
+# ** Warning: (vsim-3015) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(140): [PCDPC] - Port size (8) does not match connection size (32) for port 'threshold_i'. The port definition is at: D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /file_sim_T0/u0 File: D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/src/binaryzation.v
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/sim/hex_gray.txt" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(61)
+#    Time: 0 ps  Iteration: 0  Instance: /file_sim_T0
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/sim/wr_pic.txt" for writing.
+# No such file or directory. (errno = ENOENT)    : D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(62)
+#    Time: 0 ps  Iteration: 0  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 180 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 200 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 220 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 240 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 260 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 280 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 300 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 320 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 340 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 360 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 380 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 400 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 420 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 440 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 460 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 480 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 500 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 520 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 540 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 560 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 580 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 600 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 620 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 640 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 660 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 680 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 700 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 720 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 740 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 760 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 780 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 800 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 820 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 840 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 860 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 880 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 900 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 920 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 940 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 960 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 980 ns  Iteration: 1  Instance: /file_sim_T0
+# ** Error (suppressible): (vsim-PLI-3084) D:/Github/2023FPGARace-0285/Reference Design/wolf code/2_txt_sim/2_txt_sim/sim/file_sim_T0.v(79): $fscanf : Argument 1 is not a valid file descriptor.
+#    Time: 1 us  Iteration: 1  Instance: /file_sim_T0
+# End time: 15:22:40 on Oct 08,2023, Elapsed time: 0:00:13
+# Errors: 42, Warnings: 4
